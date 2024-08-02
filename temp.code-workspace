@@ -1,16 +1,10 @@
 {
   "folders": [
     {
-      "path": "."
-    }
+      "path": ".",
+    },
   ],
   "settings": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnPaste": false, // required
-    "editor.formatOnType": false, // required
-    "editor.formatOnSave": true, // optional
-    "editor.formatOnSaveMode": "file", // required to format on save
-    "eslint.validate": ["javascript", "javascriptreact", "html", "typescriptreact"],
-    "typescript.tsdk": "node_modules\\typescript\\lib"
-  }
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+  },
 }
