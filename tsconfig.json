@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "es2015",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false, //need to emit as using fork-ts-checker-webpack-plugin
+    "sourceMap": true,
+    "jsx": "react-jsx"
+  },
+  "files": ["webpack.config.ts"],
+  "include": ["src"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}

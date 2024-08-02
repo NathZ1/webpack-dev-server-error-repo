@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "eamodio.gitlens",
+    "dbaeumer.vscode-eslint",
+    "ms-azuretools.vscode-azurestorage",
+    "ms-vscode.azure-account"
+  ]
+}
