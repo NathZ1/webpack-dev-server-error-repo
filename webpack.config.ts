@@ -24,8 +24,8 @@ module.exports = (env: { APP_BUILD?: string; FUNCTION_APP?: string }) => {
     output: {
       path: resolve(__dirname, 'build'),
       publicPath: publicUrlOrPath,
-      filename: prod ? '[name].[contenthash:8].js' : undefined,
-      chunkFilename: prod ? '[name].[contenthash:8].chunk.js' : undefined,
+      filename: prod ? '[name].[contenthash:8].js' : '[name].js',
+      chunkFilename: prod ? '[name].[contenthash:8].chunk.js' : '[name].chunk.js',
       assetModuleFilename: 'media/[name].[hash][ext]',
       clean: true //clears the output dir prior to building
     },
